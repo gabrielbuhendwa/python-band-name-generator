@@ -1,4 +1,8 @@
-first_name = input("What is your name? : ")
-pet_name = input("What is your pet name? : ")
+print("welcome to the band name generator.")
 
-print(first_name + " " + pet_name)
+city = input ("In which city did you grow up in ?:\n ")
+
+pet = input ("What is the name of your pet ?:\n ")
+
+
+print("Your band name could be " + city + " " + pet)
